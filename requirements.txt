@@ -1,0 +1,9 @@
+nltk
+numpy
+openai
+pandas
+streamlit
+black
+tenacity
+trafilatura
+flake8
