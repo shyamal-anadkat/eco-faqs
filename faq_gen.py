@@ -172,6 +172,8 @@ def generate_answer_from_question(info: str, q: str) -> str:
     """
     response = completion_with_backoff(
         model="text-davinci-002",
+        # Tip: Ask the model to answer as if it were an expert
+        # For example: "The following answer is correct, high-quality and written by an expert in the field of <topic>."
         prompt=f"You are a climate change educator. Using only the information and facts provided below, "
         f"provide a comprehensive and truthful answer to the following question.\n\n{info}\n\nQuestion:{q}\n###\n\nAnswer:",
         temperature=0,

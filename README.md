@@ -25,6 +25,12 @@ generate relevant questions pertaining to the corpus of text
 <img src="assets/app.png" alt="drawing"/>
 </div>
 
+### Architecture
+
+<div align="center">
+<img src="assets/arch.png" alt="drawing"/>
+</div>
+
 ### Getting started 
 
 To run this app locally, follow the steps:
